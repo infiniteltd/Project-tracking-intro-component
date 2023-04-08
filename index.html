@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Project tracking intro component | Frontend Mentor </title>
+  </head>
+  <body>
+    <div class="colored-back"></div>
+    <header class="container row">
+      <div class="logg"><img src="images/logo.svg" alt="logo-img" /></div>
+      <div class="menu-items" onclick="showMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <nav class="nav-max" id="navbar">
+        <ul class="nav-list primary--list">
+          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"> Pricing</a></li>
+          <li class="nav-item"><div class="row-diff"></div></li>
+          <li class="nav-item">
+            <a class="nav-link login-link" href="#">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro-sec">
+      <div class="container row-1">
+        <div class="img-side">
+          <img src="images/illustration-devices.svg" alt="img-devices" />
+        </div>
+        <div class="content-side">
+          <div class="details-side">
+            <div class="colored-para">
+              <p>New</p>
+            </div>
+            <p class="diff-para">Monograph Dashboard</p>
+          </div>
+          <h1>
+            Powerful insights <br />
+            into your team
+          </h1>
+          <p class="plan-para">
+            Project planning and time tracking <br />
+            for agile teams
+          </p>
+          <div class="details-side">
+            <button>Schedule a demo</button>
+            <p class="diff-para">to see a preview</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">@infiniteltd</a>.
+      </p>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
