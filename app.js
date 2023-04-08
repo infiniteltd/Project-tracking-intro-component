@@ -1,4 +1,4 @@
-function showMenu(menu_info){
+function showNav(menu_info){
     const nav_menu = document.getElementById("navbar");
     if(menu_info.classList.contains("change")) 
     {
